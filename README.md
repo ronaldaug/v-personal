@@ -16,7 +16,3 @@ Vue.use(Personal)
 ## Documentation 
 https://v-personal.netlify.com
 
-#### Author
-```
-https://github.com/ronaldaug/v-personal
-```
