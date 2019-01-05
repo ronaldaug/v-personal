@@ -1,0 +1,9 @@
+@mixin gradient-bg($first-color, $second-color){
+    background: -moz-linear-gradient(-45deg, $first-color 0%, transparent 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, $first-color 0%,transparent 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, $first-color 0%,transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$first-color, endColorstr=$second-color,GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-color:$second-color; /* Old browsers */ 
+    box-shadow:0 1px 20px rgba($second-color, 0.50);
+}
+

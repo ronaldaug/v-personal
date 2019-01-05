@@ -1,0 +1,35 @@
+.btn-default{
+    color:$text-color;
+    box-shadow:0 1px 24px rgba(208, 208, 208, 0.71);
+  }
+  .btn-disable{
+    background:#f6f5f1;
+    color:#ccc;
+}
+
+  .fixed-btn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index:999;
+    transition:all ease 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    line-height: 20px;
+    padding: 20px;
+    font-size: 2em;
+    color: #fff;
+    border-radius: 100%;
+    border:none;
+  }
+
+  .fixed-btn button:hover{
+    border:none;
+  }
+  .fixed-btn:hover{
+    bottom:14px;
+  }
+  
+  body,.container{
+    overflow-x:hidden;
+  }

@@ -1,0 +1,16 @@
+.loading-box{
+    margin:auto;
+    text-align:center;
+}
+
+.fa-spinner{
+    font-size:60px;
+    animation:rotating 1.4s linear infinite;
+    transform-origin: (100%,0);
+  }
+  
+  @keyframes rotating{
+    100%{
+      transform:rotate(360deg)
+    }
+  }

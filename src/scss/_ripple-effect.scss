@@ -1,0 +1,45 @@
+/* ~~~~~~~~~~~~~~
+  Ripple Effect
+~~~~~~~~~~~~~~ */
+.ripple {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-animation: rippleEffect 0.5s ease-in-out;
+            animation: rippleEffect 0.5s ease-in-out;
+  }
+  .ripple-dark{
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(194, 194, 194, 0.5);
+    -webkit-animation: rippleEffect 0.5s ease-in-out;
+            animation: rippleEffect 0.5s ease-in-out;
+  }
+  
+  @-webkit-keyframes rippleEffect{
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: scale(var(--scale));
+              transform: scale(var(--scale));
+    }
+  }
+  
+  @keyframes rippleEffect{
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100%{
+      opacity: 0;
+      -webkit-transform: scale(var(--scale));
+              transform: scale(var(--scale));
+    }
+  }
