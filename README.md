@@ -8,7 +8,7 @@ npm install v-personal font-awesome
 ## Usage
 ```
 import  'font-awesome/css/font-awesome.min.css';
-import "./../node_modules/v-personal/dist/v-personal.css"
+import "v-personal/dist/v-personal.css"
 import Personal from "v-personal";
 Vue.use(Personal)
 ```
